@@ -1,0 +1,10 @@
+.main_img img{
+    width: 1000px;
+   
+}
+.container {
+    text-align: center;}
+    .container p{
+        font-size: 40px;
+        font-weight: bold;
+    }
