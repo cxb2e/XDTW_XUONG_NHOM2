@@ -190,12 +190,15 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  padding: 20px;
+  padding: 50px 20px 20px;
 }
 .col1{
   float: left;
   height: 200px;
   width: 33.33%;
+}
+.col1 p{
+  font-size: 13px;
 }
 .col2{
   float: left;
@@ -247,6 +250,7 @@ body {
   backdrop-filter: blur(5px); /* Làm mờ ảnh nền */
   text-align: center;
   padding-top: 50px;
+  /* padding: 50px 63px 120px 63px; */
 }
 .overlay2 a{
   text-decoration: none;
