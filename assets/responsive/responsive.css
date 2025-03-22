@@ -5,6 +5,7 @@
 }
 
 @media screen and (max-width: 600px) {
+
   .top-hd,
   .bot-hd .menu,
   .bot-hd .menu.active img,
@@ -17,15 +18,18 @@
     margin-top: 10px;
     margin-left: 10px;
   }
+
   .slider img {
     width: 100%;
     object-fit: cover;
     height: auto;
   }
+
   .box-menu {
     background-image: unset;
     height: auto;
   }
+
   .menu-toggle {
     display: block;
     position: absolute;
@@ -36,8 +40,9 @@
     background: none;
     border: none;
     cursor: pointer;
-    z-index: 1000; 
+    z-index: 1000;
   }
+
   .bot-hd .menu.active {
     display: block;
     position: absolute;
@@ -49,12 +54,15 @@
     z-index: 999;
     padding: 15px 20px;
   }
+
   .bot-hd .menu.active ul li:first-child {
     display: none;
   }
+
   .hidden-mb {
     display: none;
   }
+
   .hidden {
     display: block;
   }
@@ -78,23 +86,23 @@
     display: none;
   }
 
-  .bot-hd .menu.active li.GTC:hover > .sub_menu,
-  .bot-hd .menu.active li.TS:hover > .sub_menu,
-  .bot-hd .menu.active li.CTDT:hover > .sub_menu,
-  .bot-hd .menu.active li.HDSV:hover > .sub_menu,
-  .bot-hd .menu.active li.TD:hover > .sub_menu {
+  .bot-hd .menu.active li.GTC:hover>.sub_menu,
+  .bot-hd .menu.active li.TS:hover>.sub_menu,
+  .bot-hd .menu.active li.CTDT:hover>.sub_menu,
+  .bot-hd .menu.active li.HDSV:hover>.sub_menu,
+  .bot-hd .menu.active li.TD:hover>.sub_menu {
     display: block;
   }
 
-  .bot-hd .menu.active .sub_menu > li {
+  .bot-hd .menu.active .sub_menu>li {
     border-bottom: none;
   }
 
-  .bot-hd .menu.active .sub_menu > li:hover > a {
+  .bot-hd .menu.active .sub_menu>li:hover>a {
     color: orange;
   }
 
-  .bot-hd .menu.active .sub_menu > li > .sub_menu3-1 {
+  .bot-hd .menu.active .sub_menu>li>.sub_menu3-1 {
     position: static;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: none;
@@ -104,7 +112,7 @@
     display: none;
   }
 
-  .bot-hd .menu.active .sub_menu > li:hover > .sub_menu3-1 {
+  .bot-hd .menu.active .sub_menu>li:hover>.sub_menu3-1 {
     display: block;
   }
 
@@ -123,38 +131,48 @@
     width: 50%;
     height: 150px;
   }
+
   .box-mh {
     display: block;
     position: relative;
   }
+
   .box-mh .overlay2 {
     text-align: center;
     background-color: unset;
     width: 100%;
-    height: 80%;
+    height: 100%;
     padding: 20px 0px;
   }
+
   .box-mh .overlay2 a {
     margin-top: 30px;
     font-size: 13px;
   }
+
   .col1 h2 {
     font-size: medium;
   }
+
   .col1 p {
     font-size: 10px;
   }
 
-  
+
   .box-col25 {
     height: auto;
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .overlay {
     position: static;
     background: none;
     backdrop-filter: none;
+    background: rgba(255, 255, 255, 0.3);
+    /* Màu phủ trong suốt */
+    backdrop-filter: blur(5px);
+    /* Làm mờ ảnh nền */
+    /* padding: 20px; */
   }
 
   .col25 {
@@ -201,7 +219,8 @@
   }
 
   .featured-container .featured .row {
-    flex-direction: column; /* Xếp các cột theo chiều dọc */
+    flex-direction: column;
+    /* Xếp các cột theo chiều dọc */
   }
 
   .colum5,
@@ -242,9 +261,9 @@
     display: none;
   } */
   .footer {
-    height: 900px;
+    height: 1100px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     /* text-align: ; */
   }
 
@@ -255,6 +274,7 @@
     margin: 0px;
     text-align: center;
     /* padding: 5px; */
+    height: auto;
   }
 
   .footer .column:first-child {
@@ -270,4 +290,20 @@
   .footer p {
     text-align: center;
   }
+
+  .banner .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay .index-content {
+    padding: 20px;
+  }
+
+  .box-cover {
+    height: auto;
+  }
+  .featured-container{
+    padding: 0px;
+    }
 }
