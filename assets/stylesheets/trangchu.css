@@ -1,4 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -190,12 +196,15 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  padding: 20px;
+  padding: 50px 20px 20px;
 }
 .col1{
   float: left;
   height: 200px;
   width: 33.33%;
+}
+.col1 p{
+  font-size: 13px;
 }
 .col2{
   float: left;
@@ -242,11 +251,12 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80%;
+  height: 100%;
   background: rgba(255, 255, 255, 0.3); /* Màu phủ trong suốt */
   backdrop-filter: blur(5px); /* Làm mờ ảnh nền */
   text-align: center;
   padding-top: 50px;
+  /* padding: 50px 63px 120px 63px; */
 }
 .overlay2 a{
   text-decoration: none;
@@ -265,7 +275,7 @@ body {
   padding-top: 10px;
   height: 600px;
   padding-left: 30px;
-  margin-top: 1300px;
+  /* margin-top: 1300px; */
   bottom: 0;
 }
 .column{
@@ -310,11 +320,9 @@ body {
 
 .colum33 {
   float: left;
-  width: 30%;
+  width: 33.33%;
   padding: 10px;
-  height: 820px;
-  
-
+  /* height: 820px; */
 }
 
 .colum30 {
@@ -328,7 +336,6 @@ body {
   float: left;
   width: 14%;
   height: 200px;
-
 }
 .colum2 {
   float: left;
@@ -401,4 +408,8 @@ h1 {
 }
 .box2{
   height: 600px;
+}
+
+.featured-container{
+padding: 40px;
 }

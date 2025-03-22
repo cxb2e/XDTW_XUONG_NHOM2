@@ -1,0 +1,121 @@
+@media screen and (min-width: 1025px) {
+  .hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .top-hd,
+  .bot-hd .menu,
+  .bot-hd .menu.active img,
+  .bot-hd .menu.active i,
+  .box-menu hr {
+    display: none;
+  }
+
+  .bot-hd {
+    background-color: #272f54;
+    padding: 12px;
+    height: 50px;
+    position: relative;
+  }
+  .bot-hd .logo-mb {
+    margin-left: 5px;
+    width: 150px;
+  }
+  .box-menu {
+    background-image: unset;
+    height: auto;
+  }
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 30px;
+    color: rgb(250, 248, 248);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .bot-hd .menu.active {
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: auto;
+    top: 74px;
+    right: 50px;
+    background-color: #272f54;
+    z-index: 999;
+    padding: 15px 20px;
+  }
+  .bot-hd .menu.active ul li:first-child {
+    display: none;
+  }
+  .hidden-mb {
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+
+  .bot-hd .menu.active li {
+    float: none;
+  }
+
+  .bot-hd .menu.active li a {
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .bot-hd .menu.active .sub_menu {
+    position: static;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    min-width: auto;
+    padding-left: 20px;
+    display: none;
+  }
+
+  .bot-hd .menu.active li.GTC:hover > .sub_menu,
+  .bot-hd .menu.active li.TS:hover > .sub_menu,
+  .bot-hd .menu.active li.CTDT:hover > .sub_menu,
+  .bot-hd .menu.active li.HDSV:hover > .sub_menu,
+  .bot-hd .menu.active li.TD:hover > .sub_menu {
+    display: block;
+  }
+
+  .bot-hd .menu.active .sub_menu > li {
+    border-bottom: none;
+  }
+
+  .bot-hd .menu.active .sub_menu > li:hover > a {
+    color: orange;
+  }
+
+  .bot-hd .menu.active .sub_menu > li > .sub_menu3-1 {
+    position: static;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    left: auto;
+    top: auto;
+    padding-left: 20px;
+    display: none;
+  }
+
+  .bot-hd .menu.active .sub_menu > li:hover > .sub_menu3-1 {
+    display: block;
+  }
+  .nhat_container p {
+    font-size: 30px;
+  }
+  .main_img {
+    width: 100%;
+  }
+  .main_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
